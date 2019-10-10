@@ -1,3 +1,12 @@
+body{
+  /* import background image from GIPHY  */
+  background-image: url(https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif); 
+  background-repeat: no-repeat; 
+  background-size: 100%; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* font style */
+  color:white;  /* font color */
+}
+
 
 /* Set your video size */
 video{
@@ -16,7 +25,7 @@ img{
   height: 240px;
 }
 
-/* You can also adjust single video by selecting their class name */
+/* You can adjust single video by selecting their class name */
 .video1{
   transform: rotate(45deg);
 }
@@ -27,6 +36,22 @@ img{
   transform: scale(1.2);
 }
 
+/* Add some animation! */
+.image2{
+  animation: animation-name 1s infinite; /* Define your animation's name and duration */
+}
+/* Use @keyframes to set animation type */
+@keyframes animation-name{ 
+  10% {
+    transform: translate( 20px);
+  }
+  50% {
+    transform: translate( 100px);
+  }
+  100% {
+    transform: translate( 50px);
+  }
+}
 
 
   
