@@ -1,8 +1,8 @@
 body{
   /* import background image from GIPHY  */
-  background-image: url(https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif); 
-  background-repeat: no-repeat; 
-  background-size: 100%; 
+  background-image: url(https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* font style */
   color:white;  /* font color */
 }
@@ -10,7 +10,7 @@ body{
 
 /* Set your video size */
 video{
-  width: 400px;
+  width: 100px;
   height:240px;
 }
 
@@ -41,7 +41,7 @@ img{
   animation: animation-name 1s infinite; /* Define your animation's name and duration */
 }
 /* Use @keyframes to set animation type */
-@keyframes animation-name{ 
+@keyframes animation-name{
   10% {
     transform: translate( 20px);
   }
@@ -52,6 +52,3 @@ img{
     transform: translate( 50px);
   }
 }
-
-
-  
