@@ -1,13 +1,21 @@
 body{
   /* import background image from GIPHY  */
-  background-image: url(https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif);
+  background-color: white
   background-repeat: no-repeat;
   background-size: 100%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* font style */
   color:white;  /* font color */
+  margin: 0;
+  padding: 0;
+
 }
 
+.header{
 
+  width: 100%;
+  height: auto;
+
+}
 /* Set your video size */
 video{
   width: 100px;
