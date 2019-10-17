@@ -18,36 +18,18 @@ body{
 }
 /* Set your video size */
 video{
-  width: 100px;
-  height:240px;
+  width: 800px;
+  height:300px;
 }
 
-iframe{
-  width: 400px;
-  height:240px;
-}
 
 /* Set your image size */
-img{
-  width: 400px;
-  height: 240px;
-}
 
 /* You can adjust single video by selecting their class name */
-.video1{
-  transform: rotate(45deg);
-}
-.video2{
-  transform: skew(30deg);
-}
-.video3{
-  transform: scale(1.2);
-}
+
 
 /* Add some animation! */
-.image2{
-  animation: animation-name 1s infinite; /* Define your animation's name and duration */
-}
+
 /* Use @keyframes to set animation type */
 @keyframes animation-name{
   10% {
