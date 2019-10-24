@@ -16,6 +16,28 @@ body{
   height: auto;
 
 }
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
 /* Set your video size */
 video{
   width: 800px;
