@@ -29,6 +29,8 @@ body{
   top: 50%;
   left: 60%;
   transform: translate(-50%, -50%);
+  font-size: 16pt;
+  color: black;
 }
 
 /* Centered text */
@@ -37,6 +39,7 @@ body{
   top: 50%;
   left: 45%;
   transform: translate(-50%, -50%);
+  font-size: 16pt;
 }
 
 .wrapper {
@@ -45,12 +48,28 @@ body{
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
+.contimg_top{
+  width: 100%;
+  height: 50%;
+}
 #adformat1{
 margin-left: 35px;
-  width: 200px;
+  width: 90%;
+  height: 90%;
+}
+#adformat2{
+margin-right: 3px;
+margin-bottom: 35px;
+    width: 90%;
+    height: 90%;
+}
+#news{
+margin-left: 35%;
+  width: 100%;
   height: 100%;
 }
-.contimg{
+.contimg_bottom{
+
   width: 100%;
   height: 100%;
 }
